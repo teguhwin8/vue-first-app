@@ -4,8 +4,16 @@
       <h1>My Friends</h1>
     </header>
     <ul>
-      <friend-contact></friend-contact>
-      <friend-contact></friend-contact>
+      <friend-contact
+        name="Teguh Widodo"
+        phone-number="085868474405"
+        email-address="teguhwin8@gmail.com"
+      ></friend-contact>
+      <friend-contact
+        name="Fitriyani"
+        phone-number="085726575909"
+        email-address="fyani2288@gmail.com"
+      ></friend-contact>
     </ul>
   </section>
 </template>
