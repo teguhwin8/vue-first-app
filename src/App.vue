@@ -14,7 +14,6 @@
         name="Fitriyani"
         phone-number="085726575909"
         email-address="fyani2288@gmail.com"
-        is-favorite="0"
       ></friend-contact>
     </ul>
   </section>
