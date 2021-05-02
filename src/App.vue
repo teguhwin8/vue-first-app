@@ -8,11 +8,13 @@
         name="Teguh Widodo"
         phone-number="085868474405"
         email-address="teguhwin8@gmail.com"
+        is-favorite="1"
       ></friend-contact>
       <friend-contact
         name="Fitriyani"
         phone-number="085726575909"
         email-address="fyani2288@gmail.com"
+        is-favorite="0"
       ></friend-contact>
     </ul>
   </section>
