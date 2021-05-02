@@ -1,8 +1,8 @@
 <template>
   <li>
     <h2>{{ friend.name }}</h2>
-    <button @click="toggleDetails()">Show Details</button>
-    <ul :class="detailsAreVisible ? '' : 'd-none'">
+    <button @click="toggleDetails()">{{ detailsAreVisible ? 'Hide' : 'Show' }} Details</button>
+    <ul v-if="detailsAreVisible">
       <li>
         <strong>Phone: {{ friend.phone }}</strong>
       </li>
@@ -33,9 +33,3 @@ export default {
   },
 }
 </script>
-
-<style>
-.d-none {
-  display: none;
-}
-</style>
