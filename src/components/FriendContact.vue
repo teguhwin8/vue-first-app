@@ -13,6 +13,7 @@
         <strong>Email: {{ emailAddress }}</strong>
       </li>
     </ul>
+    <button @click="$emit('delete', id)">Delete</button>
   </li>
 </template>
 
